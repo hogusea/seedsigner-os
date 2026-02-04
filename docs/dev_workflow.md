@@ -24,13 +24,13 @@ docker exec -it seedsigner-os-build-images-1 bash
 
 Once you are in the container you can use the build script directly from the `/opt` directory
 ```bash
-./build.sh --pi0 --app-repo=https://github.com/seedsigner/seedsigner.git --app-branch=dev --no-clean
+./build.sh --pi0 --app-repo=https://github.com/hogusea/seedsigner.git --app-branch=dev --no-clean
 ```
 
 or
 
 ```bash
-./build.sh --pi0 --app-repo=https://github.com/seedsigner/seedsigner.git --app-commit-id=9c36f5c --no-clean
+./build.sh --pi0 --app-repo=https://github.com/hogusea/seedsigner.git --app-commit-id=9c36f5c --no-clean
 ```
 
 Or you can use any of the Buildroot customization commands like `make menuconfig` or `linux-menuconfig`  from the `/output` directory

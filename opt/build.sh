@@ -6,7 +6,7 @@ export FORCE_UNSAFE_CONFIGURE=1 # Allows buildroot/tar to run as root user in do
 # global variables
 cur_dir_name=${PWD##*/}
 cur_dir=$(pwd)
-seedsigner_app_repo="https://github.com/SeedSigner/seedsigner.git"
+seedsigner_app_repo="https://github.com/hogusea/seedsigner.git"
 seedsigner_app_repo_branch="dev"
 
 help()

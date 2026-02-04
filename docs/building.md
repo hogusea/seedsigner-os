@@ -44,7 +44,7 @@ If you're unsure, most people should specify `pi0`.
 export BOARD_TYPE=pi0
 ```
 
-Set your target release version of the SeedSigner code (see: https://github.com/SeedSigner/seedsigner/releases):
+Set your target release version of the SeedSigner code (see: https://github.com/hogusea/seedsigner/releases):
 
 ```bash
 # e.g. 0.8.0, 0.7.0, etc
@@ -89,7 +89,7 @@ If you're unsure, most people should specify `pi0`.
 $env:BOARD_TYPE = 'pi0'
 ```
 
-Set your target release version of the SeedSigner code (see: https://github.com/SeedSigner/seedsigner/releases):
+Set your target release version of the SeedSigner code (see: https://github.com/hogusea/seedsigner/releases):
 
 ```powershell
 # e.g. "0.8.0", "0.7.0", etc
@@ -128,7 +128,7 @@ seedsigner-os-build-images-1  | {image hash}  /opt/../images/seedsigner_os.{RELE
 seedsigner-os-build-images-1 exited with code 0
 ```
 
-The second line above will show the SHA256 hash of the image file that was built. This hash should match the hash of the release image [published on the main github repo](https://github.com/SeedSigner/seedsigner/releases) for the chosen `RELEASE_TAG` + `BOARD_TYPE` combo. If the hashes match, then you have successfully confirmed the reproducible build!
+The second line above will show the SHA256 hash of the image file that was built. This hash should match the hash of the release image [published on the main github repo](https://github.com/hogusea/seedsigner/releases) for the chosen `RELEASE_TAG` + `BOARD_TYPE` combo. If the hashes match, then you have successfully confirmed the reproducible build!
 
 The completed image file will be in the `images` subdirectory.
 ```bash
