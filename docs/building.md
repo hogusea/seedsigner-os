@@ -16,7 +16,7 @@ In a terminal window:
 
 ```bash
 # Copy the SeedSigner OS repo to your local machine
-git clone --recursive https://github.com/SeedSigner/seedsigner-os.git
+git clone --recursive https://github.com/hogusea/seedsigner-os.git
 
 # Move into the repo directory
 cd seedsigner-os
